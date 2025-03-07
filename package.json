@@ -1,5 +1,26 @@
 {
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/abiv23/chatApp#readme",
+  "bugs": {
+    "url": "https://github.com/abiv23/chatApp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abiv23/chatApp.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
   "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1",
     "ws": "^8.18.1"
   }
 }
